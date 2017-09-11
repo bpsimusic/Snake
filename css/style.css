@@ -1,0 +1,42 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+
+
+
+.board {
+  margin: auto;
+  /*background-color: green;*/
+  height: 500px;
+  width: 500px;
+  margin-top: 50px;
+}
+
+.snake {
+  background-color: green;
+}
+
+ul {
+  float: left;
+  list-style: none;
+  height: 25px;
+  width: 500px;
+  margin: 0px;
+  padding-left: 0px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+ul:last-child {
+  border-bottom: 1px solid black;
+}
+
+li {
+  float: left;
+  height: 25px;
+  width: 25px;
+}
